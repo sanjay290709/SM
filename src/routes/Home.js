@@ -1,6 +1,5 @@
-// import 'src/Common/common.css';            // error occuring
-
 import Navbar from "../components/Navbar";
+import one from '../assets/one.jpg';
 
 // FileName : Home.js
 // Created By : Sanjay
@@ -12,6 +11,7 @@ const Home = () => {
   return (
     <div className="Home">
       <Navbar />
+      <img className="bgImage" src={one} alt="Home page bg image"/>
     </div>
   );
 };
