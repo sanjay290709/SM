@@ -10,7 +10,8 @@ import { Link } from "react-router-dom";
 // Purpose : To display the Navbar of the website
 
 const Navbar = () => {
-  // Set state
+  // Set state    
+  
   // Make Handleclick Function
   return (
     <>
