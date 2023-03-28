@@ -1,5 +1,4 @@
 import { Component } from "react";
-import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 
@@ -11,12 +10,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // Set state    
-  
+
   // Make Handleclick Function
   return (
     <>
       <nav className="NavbarItems">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">SM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

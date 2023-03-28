@@ -7,7 +7,9 @@
 const Service = () => {
   return (
     <>
-      <h1>Call The Components</h1>
+      <h1 className="heading"><span className="cp">Services</span><span className="cs"> we Provide</span></h1>
+      <hr className="hr" style={{"height" : "10px !important"}}/>
+      <h1> Service cards will appear here</h1>
     </>
   );
 }

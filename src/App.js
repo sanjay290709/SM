@@ -1,5 +1,5 @@
-import "./styles.css";
 import { Route, Routes } from "react-router-dom";
+import "./common.css";
 import Home from "./routes/Home";
 
 // FileName : App.js

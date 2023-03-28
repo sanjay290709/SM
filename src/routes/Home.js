@@ -1,5 +1,9 @@
 import Navbar from "../components/Navbar";
-import one from '../assets/one.jpg';
+import Service from "./Service";
+import About from "./About";
+import Objectives from "./Objectives";
+import Footer from "./Footer";
+import Contact from "./Contact";
 
 // FileName : Home.js
 // Created By : Sanjay
@@ -9,10 +13,26 @@ import one from '../assets/one.jpg';
 
 const Home = () => {
   return (
-    <div className="Home">
-      <Navbar />
-      <img className="bgImage" src={one} alt="Home page bg image"/>
-    </div>
+    <>
+      <div className="section">
+        <Navbar />
+      </div>
+      <div className="section">
+        <About />
+      </div>
+      <div className="section">
+        <Service />
+      </div>
+      <div className="section">
+        <Objectives />
+      </div>
+      <div className="footer">
+        <Contact/>
+      </div>
+      <div className="footer">
+        <Footer/>
+      </div>
+    </>
   );
 };
 

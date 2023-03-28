@@ -7,7 +7,11 @@
 const Contact = () => {
   return (
     <>
-      <h1>Call The Components</h1>
+     <>
+     <h1 className="heading"><span className="cp">Get</span><span className="cs"> In Touch</span></h1>
+      <hr className="hr" style={{"height" : "10px !important"}}/>
+      <h1> Contact Form will appear here</h1>
+    </>
     </>
   );
 }
