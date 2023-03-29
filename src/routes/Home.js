@@ -26,7 +26,7 @@ const Home = () => {
       <div className="section">
         <Objectives />
       </div>
-      <div className="footer">
+      <div className="section">
         <Contact/>
       </div>
       <div className="footer">

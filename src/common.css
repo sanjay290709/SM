@@ -7,15 +7,25 @@
   font-family: "Poppins", sans-serif;
 }
 
-.bg{
+/* common classes  */
+.spacing{
+  margin: 10px;
+  padding: 10px;
+}
+
+.mt-14{
+  margin-top: 14px;
+}
+/* --------------- */
+.bg {
   background-color: #FFB666;
 }
 
-.cp{
+.cp {
   color: #FF8600;
 }
 
-.cs{
+.cs {
   /* color: #AEB8FE; */
   color: #4fc2eb;
 }
@@ -30,7 +40,11 @@
 
 /* common heading */
 .heading {
-  font-size: 32px;
+  font-size: 36px;
+}
+
+.subHeading{
+  font-size: 20px;
 }
 
 /* horizontal line */
@@ -51,6 +65,57 @@
   -webkit-filter: blur(2px);
 }
 
-.footer{
+/* Card style  */
+.cardComp {
+  min-height: 300px;
+  /* width: 50%; */
+  margin: auto;
+  padding: auto;
+  border: 1px solid #e7e8f5;
+}
+
+.cardComp :hover {
+  background-color: #f8f9fa;
+}
+
+.cardTitle {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.cardContent{
+  font-size: 14px;
+  border: none;
+  text-align: justify;
+}
+
+.cardContent :hover{
+  border: none;;
+}
+
+/* ------------------------- */
+
+/* text button style */
+.button {
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  color: #4fc2eb;
+}
+
+.button :hover {
+  font-style: italic;
+  color: #FFB666 !important;
+}
+/* ------------------------ */
+
+/* form outer part  */
+.formOuter{
+  border: 1px solid #e7e8f5;
+  border-radius: 4px;
+}
+/* ------------------ */
+
+.footer {
   min-height: 40vh;
 }
