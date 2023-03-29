@@ -19,11 +19,12 @@ const Form = () => {
     return (
         <>
             <div className="container formOuter pt-4 mt-4">
-                <h1 className="heading mt-4">
+                <h1 className="heading mt-2">
                     <span className="cp">Stay</span>
                     <span className="cs"> Connected</span>
                 </h1>
-                <form className=''>
+                <hr className="hr" style={{ "height": "10px !important" }} />
+                <form className='mt-4'>
                     <div class="mb-3">
                         <div class="row">
                             <div class="col-4">
