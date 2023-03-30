@@ -37,8 +37,8 @@ const Form = () => {
                             </div>
                             <div class="col-8">
                                 <input
+                                    className="form-control inputField"
                                     type="name"
-                                    class="form-control"
                                     id="exampleInputname"
                                     aria-describedby="nameHelp"
                                     value={objFormData.strName}
@@ -59,9 +59,8 @@ const Form = () => {
                             </div>
                             <div class="col-8">
                                 <input
-
+                                    className="form-control inputField"
                                     type="email"
-                                    class="form-control"
                                     id="exampleInputEmail1"
                                     aria-describedby="emailHelp"
                                 />
@@ -81,8 +80,8 @@ const Form = () => {
                             </div>
                             <div class="col-8">
                                 <input
+                                    className="form-control inputField"
                                     type="number"
-                                    class="form-control"
                                     id="exampleInputNumber"
                                 />
                             </div>
@@ -102,7 +101,7 @@ const Form = () => {
                             <div class="col-8">
                                 <div class="form-floating">
                                     <textarea
-                                        class="form-control"
+                                        className="inputField h-100"
                                         placeholder="Leave a comment here"
                                         id="floatingTextarea"
                                     >
@@ -111,20 +110,7 @@ const Form = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="mb-3 form-check">
-                        <input
-                            type="checkbox"
-                            class="form-check-input"
-                            id="exampleCheck1"
-                        />
-                        <label
-                            class="form-check-label"
-                            for="exampleCheck1"
-                        >
-                            Check me out
-                        </label>
-                    </div>
-                    <button t
+                    <button
                         ype="submit"
                         class="btn btn-primary mb-4"
                     >

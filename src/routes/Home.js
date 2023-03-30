@@ -17,20 +17,20 @@ const Home = () => {
       <div className="section">
         <Navbar />
       </div>
-      <div className="section">
+      <div className="section even-section pt-4">
         <About />
       </div>
-      <div className="section">
+      <div className="section pt-4">
         <Service />
       </div>
-      <div className="section">
+      <div className="section even-section pt-4">
         <Objectives />
       </div>
-      <div className="section">
-        <Contact/>
+      <div className="section even-section pt-4">
+        <Contact />
       </div>
-      <div className="footer">
-        <Footer/>
+      <div className="footer pt-4">
+        <Footer />
       </div>
     </>
   );

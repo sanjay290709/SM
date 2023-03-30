@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="NavbarItems">
-        <nav class="navbar navbar-expand-lg bg">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">SM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +58,22 @@ const Navbar = () => {
           </div>
         </nav>
       </nav>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
+        style={{ "width": "100%", "min-height": "35.1rem" }}
+        class="css-b1ilzc"
+      >
+        <path
+          fill="#cecece"
+          fill-opacity="1"
+          d="M0,64L60,58.7C120,53,240,43,360,69.3C480,96,600,160,720,186.7C840,213,960,203,1080,186.7C1200,171,
+          1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,
+          320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        >
+        </path>
+      </svg>
     </>
   );
 
