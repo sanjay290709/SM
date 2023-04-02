@@ -1,9 +1,10 @@
 import Navbar from "../components/Navbar";
 import Service from "./Service";
 import About from "./About";
-import Objectives from "./Objectives";
+import Technology from "./Technology";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Form from "../components/Form";
 
 // FileName : Home.js
 // Created By : Sanjay
@@ -14,8 +15,15 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <>
-      <div className="section">
+      <div className="section home">
         <Navbar />
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-12">
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            {/* <Form /> */}
+          </div>
+        </div>
       </div>
       <div className="section even-section pt-4">
         <About />
@@ -24,9 +32,9 @@ const Home = () => {
         <Service />
       </div>
       <div className="section even-section pt-4">
-        <Objectives />
+        <Technology />
       </div>
-      <div className="section even-section pt-4">
+      <div className="section pt-4">
         <Contact />
       </div>
       <div className="footer pt-4">

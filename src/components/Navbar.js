@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
         </nav>
       </nav>
-      <svg
+      {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
         preserveAspectRatio="none"
@@ -73,7 +73,7 @@ const Navbar = () => {
           320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         >
         </path>
-      </svg>
+      </svg> */}
     </>
   );
 

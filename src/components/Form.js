@@ -16,6 +16,11 @@ const Form = () => {
         strMsg: ''
     })
 
+    //save data 
+    const saveData = (event) => {
+        event.preventDefault()
+    }
+
     return (
         <>
             <div className="container formOuter pt-4 mt-4">
@@ -110,12 +115,22 @@ const Form = () => {
                             </div>
                         </div>
                     </div>
-                    <button
-                        ype="submit"
-                        class="btn btn-primary mb-4"
-                    >
-                        Submit
-                    </button>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-4">
+                            </div>
+                            <div class="col-4">
+                                <button
+                                    // type="submit"
+                                    class="btn btn-primary mb-4"
+                                    onClick={(event) => saveData(event)}
+                                >
+                                    Submit
+                                </button>
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </>
